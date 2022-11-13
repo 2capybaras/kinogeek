@@ -28,8 +28,9 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
-    implementation ("org.neo4j:neo4j-cypher-dsl:2022.7.3")
+    implementation("org.neo4j:neo4j-cypher-dsl:2022.7.3")
     implementation("org.neo4j.driver:neo4j-java-driver:5.2.0")
+    implementation("org.springdoc:springdoc-openapi-webflux-ui:1.6.12")
 
     compileOnly("org.projectlombok:lombok")
 
