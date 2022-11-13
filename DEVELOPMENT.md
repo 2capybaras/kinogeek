@@ -14,7 +14,7 @@ FEATURE: what done
 - PR must be reviewed
 
 ## Documentation
-- Swagger via annotations
+- Swagger via annotations - http://localhost:8080/swagger-ui
 
 ## Packages hierarchy
 - config - contains application configs 
