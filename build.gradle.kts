@@ -29,9 +29,9 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
     compileOnly("org.projectlombok:lombok")
-    annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("io.projectreactor:reactor-test")
+    implementation ("org.neo4j:neo4j-cypher-dsl:2022.7.3")
 }
 
 tasks.withType<KotlinCompile> {

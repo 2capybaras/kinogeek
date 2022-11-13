@@ -1,0 +1,13 @@
+version: '2'
+
+networks:
+  neo4j-network:
+    driver: bridge
+
+services:
+  neo4j:
+    image: neo4j:latest
+    ports:
+      - '7474:7474'
+      - '7473:7473'
+      - '7687:7687'
