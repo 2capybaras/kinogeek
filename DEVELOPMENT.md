@@ -15,3 +15,15 @@ FEATURE: what done
 
 ## Documentation
 - Swagger via annotations
+
+## Packages hierarchy
+- config - contains application configs 
+- controller - api controllers
+  - advice - @ControllerAdvice as exception handler 
+- dto 
+  - request - api requests with swagger annotations
+  - response - api responses with swagger annotations
+- entity - db entity
+- exception - custom exceptions
+- repository - specify db request methods
+- service - main logic 
