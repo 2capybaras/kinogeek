@@ -3,5 +3,5 @@ package org.capybaras.kinogeek.service
 import org.springframework.stereotype.Service
 
 @Service
-interface PersonService {
+interface DirectorService {
 }
