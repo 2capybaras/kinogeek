@@ -1,5 +1,7 @@
 # Development
 
+<img alt="developer" src=".github/developer.png">
+
 ## Commits
 message:
 ```
