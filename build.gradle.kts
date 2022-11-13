@@ -30,9 +30,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
     implementation("org.neo4j:neo4j-cypher-dsl:2022.7.3")
     implementation("org.neo4j.driver:neo4j-java-driver:5.2.0")
-    implementation("io.springfox:springfox-swagger2:3.0.0")
-    implementation("io.springfox:springfox-boot-starter:3.0.0")
-    implementation("io.springfox:springfox-swagger-ui:3.0.0")
+    implementation("org.springdoc:springdoc-openapi-webflux-ui:1.6.12")
 
     compileOnly("org.projectlombok:lombok")
 
