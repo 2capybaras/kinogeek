@@ -5,4 +5,5 @@ import reactor.core.publisher.Mono
 
 interface MovieService {
     fun findById(id: Long): Mono<Movie>
+    fun addMovie(movie: Movie)
 }
